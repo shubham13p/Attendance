@@ -167,7 +167,7 @@ public class Login extends AppCompatActivity {
                                             } else {
                                                 progressBar.setVisibility(View.GONE);
                                                 Toast.makeText(Login.this, "Email is not verified \n check your email inbox.", Toast.LENGTH_SHORT).show();
-                                                mAuth.signOut();
+                                                FirebaseAuth.getInstance().signOut();
                                             }
                                         } catch (NullPointerException e) {
                                             Log.e(TAG, "signInWithEmail: onComplete: " + task.isSuccessful());

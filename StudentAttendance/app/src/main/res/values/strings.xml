@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Attendance</string>
+    <string name="app_name">Student</string>
     <string name="action_sign_in_short">Register</string>
     <string name="action_update_profile">Update Profile</string>
     <string name="email">SCU EMAIL</string>

@@ -102,6 +102,7 @@ public class Method {
                     if (task.isSuccessful()) {
                         User insertuser = new User(sscuemail, sscuname, sscuid, userMac, sscuimage, "0");
                         myRef.child(sscuid).setValue(insertuser);
+                        FirebaseAuth.getInstance().signOut();
                         Toast.makeText(mContext, "verification email send.", Toast.LENGTH_SHORT).show();
                         mContext.startActivity(new Intent(mContext, Login.class));
 
