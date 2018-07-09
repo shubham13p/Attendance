@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "145337745005",
+    "firebase_url": "https://studentattendance-3f232.firebaseio.com",
+    "project_id": "studentattendance-3f232",
+    "storage_bucket": "studentattendance-3f232.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145337745005:android:801bd703329e5cee",
+        "android_client_info": {
+          "package_name": "com.example.shubhampatel.studentattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145337745005-ns3vlhcg14hae3rn7mqjcfjlqk6t76j8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shubhampatel.studentattendance",
+            "certificate_hash": "92b93b275de7b094a7cdfeaae9d135754dfb8a3d"
+          }
+        },
+        {
+          "client_id": "145337745005-6ie4ljq0595gh8p18tjahp80pha2p69j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPK4X5ARuTTygqA9CUP3oTqKDXnpei-QE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145337745005-6ie4ljq0595gh8p18tjahp80pha2p69j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

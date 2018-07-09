@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/ic_add_circle_outline_black_24dp"
+            android:title="PROFILE" />
+        <item
+            android:id="@+id/scanpresent"
+            android:icon="@drawable/ic_select_all_black_24dp"
+            android:title="SCAN MY PRESENT" />
+    </group>
+
+
+</menu>
